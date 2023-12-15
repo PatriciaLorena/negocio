@@ -35,7 +35,7 @@ body{
   background-color: #684396;
   position: absolute;
   min-width: 60px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .icono{
@@ -69,7 +69,7 @@ h1{
   background-color: #18022d;
   position: absolute;
   margin-top: 4%;
-  z-index: 1;
+  z-index: 3;
   color: #fff;
 }
 
@@ -113,6 +113,80 @@ img:hover {
   
 }
 
+.descripcion{
+  position: relative;
+  float: left;
+  padding-left: 100px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.abajo h4 {
+  margin: 0;
+}
+
+.abajo .derecha {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Alinea a la derecha */
+}
+
+.abajo h1 {
+  margin: 0;
+  margin-right: 10px; /* Ajusta el espacio entre h1 y el botón */
+}
+
+.abajo button {
+  padding: 10px 20px;
+  background-color: #684396;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.abajo {
+  background-color: #18022d;
+  padding: 25px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.abajo h4 {
+  margin: 0;
+}
+
+.abajo .derecha {
+  display: flex;
+  align-items: center;
+}
+
+h2{
+  height: 60px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px; /* Puedes ajustar el valor según sea necesario */
+}
+
+button{
+  border-radius: 5px;
+  background-color: #684396;
+  font-size: 18px;
+  padding: 10px;
+  border: solid 1px #1a0241;
+  margin-left: 30px;
+}
+
+button:hover{
+  background-color: #1a0241;
+}
 
 
 
